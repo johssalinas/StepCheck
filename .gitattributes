@@ -1,0 +1,48 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Force LF for all text files
+* text eol=lf
+
+# Mark all files as text
+* text=auto
+
+# Exclude binary files from line ending normalization
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.tgz binary
+*.bz2 binary
+*.xz binary
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.exe binary
+*.dll binary
+*.otf binary
+*.ttf binary
+
+# Custom for Angular projects
+*.ts text
+*.html text
+*.scss text
+*.css text
+*.js text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+
+# Custom for Rust projects
+*.rs text
+Cargo.toml text
+
+# Custom for Docker
+Dockerfile text
+*.yml text
